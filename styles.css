@@ -1,0 +1,65 @@
+#grid {
+    display: grid;
+    height: 100px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 100px;
+    column-gap: 20px;
+  }
+  
+  #grid > div {
+    border: 1px solid green;
+    background-color: rgb(165, 192, 165);
+    border-radius: 5px;
+  }
+  
+  
+  
+  .container {
+    display:flex;
+    padding:10px;
+    background-color: beige;
+    align-items: center;
+    flex-direction: column;
+   
+
+}
+pre {
+    white-space: -moz-pre-wrap; /* Mozilla, supported since 1999 */
+    white-space: -pre-wrap; /* Opera */
+    white-space: -o-pre-wrap; /* Opera */
+    white-space: pre-wrap; /* CSS3 - Text module (Candidate Recommendation) http://www.w3.org/TR/css3-text/#white-space */
+    word-wrap: break-word; /* IE 5.5+ */
+     }
+
+.btn {
+    padding: 3px;
+    margin: 1rem;
+    width: 100px;
+}
+.flex {
+    display: flex;
+    justify-content: left;
+}
+
+h1 {
+    color:blueviolet;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+
+h3 {
+    color: chocolate;
+    font-family: Georgia;
+}
+
+.info {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2rem 0;
+    padding-left: 1rem;
+}
+
+.mn {
+    color : beige ;
+}
