@@ -63,3 +63,9 @@ h3 {
 .mn {
     color : beige ;
 }
+
+.logoimage {
+    min-height: 50px;
+    width: 50px;
+    border-style: solid 2px;
+}

@@ -1,5 +1,5 @@
 function getLorem(p) {
-    let ipsum = fetch(`https://loripsum.net/api/${p}/short/headers`,{mode:"no-cors"})
+    let ipsum = fetch(`https://www.freeforexapi.com/api/live`)
     .then(function(response) {
         
       return response.text();
